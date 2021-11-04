@@ -106,7 +106,7 @@ export default {
       let userToken = localStorage.getItem("token_access");
       let userId = jwt_decode(userToken).user_id.toString();
       axios
-        .get(`https://gestify-back-nodb.herokuapp.com/user/${userId}/products`, {
+        .get(`https:///user/${userId}/products`, {
           headers: { Authorization: `Bearer ${userToken}` },
         })
         .then((result) => {
@@ -141,7 +141,7 @@ export default {
       let productId = this.userProducts[productCodeDelete].code;
       axios
         .delete(
-          `https://gestify-back-nodb.herokuapp.com/user/${userId}/products/${productId}`,
+          `https:///user/${userId}/products/${productId}`,
           {
             headers: { Authorization: `Bearer ${userToken}` },
           }
