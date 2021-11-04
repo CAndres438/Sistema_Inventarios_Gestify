@@ -1,0 +1,110 @@
+.sidenav {
+    background-color: var(--ges-lighteen-gray);
+    box-shadow: var(--shadow-3);
+}
+
+.sidenav-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+}
+
+.sidenav-content h1 {
+    padding: 24px 0 0 24px;
+}
+
+.sidenav-options {
+    margin-bottom: 10px;
+}
+
+.sidenav-options:first-of-type {
+    margin-top: 16px;
+}
+
+.sidenav-options:hover {
+    cursor: pointer;
+    box-shadow: var(--shadow-2);
+}
+
+.sidenav-options__summary {
+    display: block;
+    padding: 10px 24px;
+}
+
+.sidenav-options[open] .sidenav-options__summary {
+    background: var(--gradient-secondary);
+    font-weight: 700;
+}
+
+.sidenav-options[open] .sidenav-options__summary ges-icon {
+    transform: rotate(90deg);
+}
+
+.sidenav-options,
+.sidenav-options__summary {
+    transition: var(--basic-transition);
+}
+
+.sidenav-list {
+    list-style: none;
+}
+
+.sidenav-list__link {
+    display: block;
+    padding: 10px 0 10px 42px;
+    text-decoration: none;
+}
+
+.sidenav-list__link:hover {
+    background-color: var(--ges-lighteen-purple);
+    color: var(--ges-dark-purple);
+}
+
+.sidenav-list__link:visited {
+    color: var(--ges-purple);
+}
+
+.sidenav-options__summary span {
+    margin-left: 10px;
+}
+
+.sidenav-bottom-info {
+    background-color: var(--ges-lighteen-purple);
+    max-height: 200px;
+    min-height: 150px;
+    padding: 16px;
+    border-top: 1px solid var(--ges-dark-purple);
+}
+
+.bottom-info__name {
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.bottom-actions-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.bottom-info__profile,
+.bottom-info__action {
+    display: block;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: var(--basic-transition);
+    border-top: 1px solid var(--ges-dark-purple);
+}
+
+.bottom-info__profile {
+    padding: 5px;
+    text-decoration: none;
+    margin-bottom: 10px;
+    border-top: none;
+}
+
+.bottom-info__profile:hover,
+.bottom-info__action:hover {
+    background-color: var(--ges-lighteen-gray);
+}

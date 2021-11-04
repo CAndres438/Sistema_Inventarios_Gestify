@@ -1,0 +1,20 @@
+.profile-information-container {
+    background-color: var(--ges-lighteen-gray);
+    box-shadow: var(--shadow-3);
+    padding: 32px;
+    border-radius: 4px;
+    max-width: 500px;
+}
+
+.profile-information__title {
+    font-weight: 700;
+    font-size: var(--font-size-14px);
+    margin-bottom: 0;
+}
+
+.password-action {
+    border-top: transparent;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 16px;
+}

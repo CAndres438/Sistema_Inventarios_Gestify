@@ -1,0 +1,91 @@
+/* -- TAMAÑO DE FUENTES -- */
+
+:root {
+    --font-size-0: 0.8rem;
+    /* Font-size 14 */
+    --font-size-14px: 14px;
+    /* Paragraph */
+    --font-size-1: 1rem;
+    /* Párrafos - h5 */
+    --font-size-2: 1.15rem;
+    /* h4 */
+    --font-size-3: 1.2rem;
+    /* h3 */
+    --font-size-4: 1.4rem;
+    /* h2 */
+    --font-size-5: 1.7rem;
+    /* Big titles */
+    --font-size-6: 2rem;
+    --font-size-7: 2.2rem;
+}
+
+h1 {
+    font-size: var(--font-size-6);
+    font-weight: 700;
+}
+
+h2 {
+    font-size: var(--font-size-3);
+    font-weight: 700;
+}
+
+h1,
+h2 {
+    color: var(--primary);
+}
+
+h3,
+h4 {
+    font-size: var(--font-size-2);
+    font-weight: 500;
+    color: var(--dark-primary);
+}
+
+h5,
+h6 {
+    font-size: var(--font-size-1);
+    font-weight: 500;
+}
+
+small,
+.hint,
+.error-message {
+    font-size: var(--font-size-14px);
+}
+
+p {
+    font-size: var(--font-size-1);
+}
+
+small,
+.hint,
+.error-message,
+p {
+    font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+h1 {
+    margin-bottom: 0.5rem;
+    line-height: 1.2;
+}
+
+a {
+    color: var(--ges-purple);
+}

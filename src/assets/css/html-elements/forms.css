@@ -1,0 +1,162 @@
+.register-form-container,
+.login-form-container {
+    display: flex;
+}
+
+.center-content-column,
+.input-container,
+.white-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.white-container form,
+.center-content-column {
+    justify-content: center;
+    align-items: center;
+}
+
+.center-content-column {
+    min-height: 100vh;
+}
+
+.white-container,
+.form-container,
+.global-form-container {
+    background-color: white;
+    border-radius: 0 16px 16px 0;
+    box-shadow: var(--shadow-3);
+    padding: 24px 32px;
+}
+
+.global-form-container {
+    border-radius: 8px;
+    padding: 16px;
+}
+
+.form-title,
+.input-container {
+    margin-bottom: 24px;
+    width: 100%;
+}
+
+.input-container__label {
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.input-container__input {
+    padding: 10px 12px;
+    border-radius: 4px;
+    border: 1px solid var(--ges-dark-gray);
+}
+
+.input-container__input:focus-visible {
+    outline: none;
+    border-color: var(--ges-medium-purple);
+    box-shadow: 0 0 3px 1px var(--ges-light-purple);
+}
+
+.bottom-actions {
+    border-top: 1px solid var(--ges-purple);
+    padding: 10px 0 5px;
+    text-align: center;
+}
+
+.login-form {
+    min-width: 400px;
+}
+
+.register-form,
+.header-back-button__link {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.register-form {
+    margin-bottom: 16px;
+}
+
+.register-form .input-container,
+.register-form .form-title,
+.form-container .header-back-button {
+    margin: 10px 16px;
+}
+
+.header-back-button__link {
+    text-decoration: none;
+}
+
+.register-form .input-container {
+    max-width: 300px;
+}
+
+.buttons-container button {
+    margin: 16px 16px 5px 16px;
+}
+
+.edit-form {
+    justify-content: center;
+}
+
+.double-input {
+    display: flex;
+}
+
+.double-input .input-container__input {
+    min-width: 150px;
+    max-width: 150px;
+}
+
+.double-input .input-container__input:first-child {
+    border-radius: 4px 0 0 4px;
+}
+
+.double-input .input-container__input:last-child {
+    border-radius: 0 4px 4px 0;
+}
+
+.input-container__input:disabled {
+    background-color: var(--ges-lighteen-gray);
+    color: var(--ges-dark-gray);
+    border-color: var(--ges-lighteen-purple);
+}
+
+.search-form {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.search-form div {
+    display: flex;
+}
+
+.input-container--search,
+.input-container--search .input-container__input {
+    max-width: 400px;
+    min-width: 400px;
+}
+
+.user-profile-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.user-profile-form .input-container {
+    max-width: 400px;
+}
+
+.global-form-container--profile {
+    max-width: 500px;
+    padding: 32px;
+}
+
+.global-form-container--profile .user-profile-form .input-container {
+    max-width: none;
+    width: 100%;
+}
+
+.input-container-no-margin {
+    margin-bottom: 5px;
+}

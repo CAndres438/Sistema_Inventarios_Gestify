@@ -1,0 +1,28 @@
+.cards-modules-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.ges-card--home {
+    max-width: 23.5%;
+}
+
+.ges-card {
+    background-color: white;
+    box-shadow: var(--shadow-3);
+    padding: 16px;
+    border-radius: 4px;
+}
+
+.ges-card__title {
+    color: var(--primary);
+    border-bottom: 2px solid var(--ges-purple);
+    padding-bottom: 16px;
+    text-align: center;
+}
+
+.ges-card__text {
+    margin-top: 16px;
+}

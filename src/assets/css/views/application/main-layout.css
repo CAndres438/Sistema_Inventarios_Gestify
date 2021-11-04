@@ -1,0 +1,28 @@
+.sidenav {
+    grid-area: sidenav;
+}
+
+.main-content {
+    grid-area: main-content;
+}
+
+.main-layout {
+    display: grid;
+    grid-template-columns: 260px auto;
+    grid-template-rows: 100vh;
+    grid-template-areas: "sidenav main-content";
+    column-gap: 24px;
+    align-items: flex-start;
+    justify-items: stretch;
+}
+
+.sidenav,
+.main-content {
+    min-height: 100%;
+    max-height: 100%;
+    overflow-y: auto;
+}
+
+.main-content {
+    padding: 24px 16px 16px 24px;
+}
