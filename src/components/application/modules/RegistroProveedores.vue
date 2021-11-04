@@ -66,7 +66,7 @@ export default {
       let userToken = localStorage.getItem("token_access");
       let userId = jwt_decode(userToken).user_id.toString();
 
-      axios.post(`https://gestify-back-nodb.herokuapp.com/user/${userId}/providers`, this.provider, {
+      axios.post(`https:///user/${userId}/providers`, this.provider, {
         headers: { Authorization: `Bearer ${userToken}` },
       }).then((result) => {
         alert("Proveedor creado con éxito")
