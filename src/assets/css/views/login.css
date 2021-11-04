@@ -1,0 +1,21 @@
+.bg-login {
+    min-width: 450px;
+    /* background-image: url("../../img/bg-login.png"); */
+    background: var(--gradient-secondary);
+    border-radius: 16px 0 0 16px;
+    box-shadow: var(--shadow-3);
+}
+
+.bg-login::after {
+    content: 'Gestify';
+    font-size: var(--font-size-7);
+    color: var(--dark-primary);
+    font-weight: 700;
+    position: relative;
+    top: calc( 100% - 100px);
+    left: calc( 100% - 180px);
+}
+
+.form-title--login {
+    text-align: left;
+}

@@ -1,0 +1,23 @@
+.footer-container {
+    height: 80px;
+}
+
+.footer {
+    background-color: var(--dark-primary);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    padding: 10px 0;
+}
+
+.footer-content {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-content p {
+    margin-bottom: 0;
+}

@@ -1,0 +1,231 @@
+button,
+.header-back-button__link {
+    display: inline-flex;
+    align-items: center;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    padding: 8px 16px;
+    font-size: var(--font-size-1);
+    line-height: 1.5;
+    border-radius: 6px;
+    margin: 0 0 16px 16px;
+    white-space: nowrap;
+    width: fit-content;
+    transition: var(--btn-transition);
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+}
+
+button:first-child,
+button:last-child {
+    margin-right: 0;
+}
+
+button:first-child,
+button:first-of-type {
+    margin-left: 0;
+}
+
+.header-back-button__link svg,
+button svg {
+    margin-right: 10px;
+}
+
+.primary-btn {
+    background: var(--gradient-primary);
+    background-color: var(--ges-purple);
+    color: white;
+}
+
+.primary-btn:hover {
+    background: var(--ges-dark-purple);
+    color: white;
+    box-shadow: 0 0 6px 2px var(--ges-light-purple);
+    cursor: pointer;
+}
+
+.primary-btn:disabled,
+.cancel-btn:disabled {
+    box-shadow: none;
+    background-color: var(--ges-light-gray);
+    color: var(--ges-gray);
+    cursor: inherit;
+}
+
+.primary-btn:disabled:hover {
+    cursor: inherit;
+}
+
+.primary-btn:not(:disabled):not(.disabled):focus,
+.primary-btn:not(:disabled):not(.disabled).focus,
+.primary-btn:focus {
+    box-shadow: 0 0 3px 1px var(--ges-purple);
+    background-color: var(--ges-purple);
+}
+
+.primary-btn:not(:disabled):not(.disabled):active,
+.primary-btn:not(:disabled):not(.disabled).active,
+.primary-btn:active {
+    background-color: var(--ges-purple);
+    box-shadow: 0 0 4px 2px var(--ges-light-purple);
+}
+
+.primary-btn--margin {
+    margin-left: 16px !important;
+}
+
+.cancel-btn {
+    background: white;
+    color: var(--ges-red);
+    border: 1px solid var(--ges-red);
+}
+
+.cancel-btn:hover {
+    background-color: var(--ges-red);
+    color: white;
+    box-shadow: 0 0 6px 2px var(--ges-red-opacity);
+    cursor: pointer;
+}
+
+.cancel-btn:disabled:hover {
+    cursor: inherit;
+}
+
+.cancel-btn:not(:disabled):not(.disabled):focus,
+.cancel-btn:not(:disabled):not(.disabled).focus,
+.cancel-btn:focus {
+    box-shadow: 0 0 3px 1px var(--ges-red);
+    background-color: var(--ges-red);
+}
+
+.cancel-btn:not(:disabled):not(.disabled):active,
+.cancel-btn:not(:disabled):not(.disabled).active,
+.cancel-btn:active {
+    background-color: var(--ges-red);
+    box-shadow: 0 0 4px 2px var(--ges-red-opacity);
+}
+
+.custom-home-btn {
+    font-size: var(--font-size-4);
+}
+
+.header-back-button__link {
+    background: white;
+    color: var(--primary);
+    padding: 5px;
+    margin: 0 16px 0 0;
+    border-radius: 25px;
+    height: 36px;
+}
+
+.header-back-button__link:hover {
+    background-color: white;
+    color: var(--ges-dark-purple);
+    box-shadow: none;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.header-back-button__link:disabled:hover {
+    cursor: inherit;
+}
+
+.header-back-button__link:not(:disabled):not(.disabled):focus,
+.header-back-button__link:not(:disabled):not(.disabled).focus,
+.header-back-button__link:focus {
+    box-shadow: 0 0 3px 1px var(--ges-light-purple);
+    background-color: white;
+}
+
+.header-back-button__link:not(:disabled):not(.disabled):active,
+.header-back-button__link:not(:disabled):not(.disabled).active,
+.header-back-button__link:active {
+    background-color: white;
+    box-shadow: none;
+}
+
+.close-btn {
+    background: transparent;
+    color: var(--ges-red);
+    padding: 5px;
+    margin-bottom: 0;
+}
+
+.edit-btn {
+    background: transparent;
+    color: var(--ges-purple);
+    padding: 5px;
+    margin-bottom: 0;
+}
+
+.edit-btn svg,
+.close-btn svg {
+    margin-right: 0;
+}
+
+.close-btn:hover {
+    background-color: var(--ges-red-light-opacity);
+    color: var(--ges-red);
+    box-shadow: 0 0 6px 2px var(--ges-red-opacity);
+    cursor: pointer;
+}
+
+.edit-btn:disabled:hover,
+.close-btn:disabled:hover {
+    cursor: inherit;
+}
+
+.close-btn:not(:disabled):not(.disabled):focus,
+.close-btn:not(:disabled):not(.disabled).focus,
+.close-btn:focus {
+    box-shadow: 0 0 3px 1px var(--ges-red-opacity);
+    background-color: var(--ges-red-light-opacity);
+    color: var(--ges-red);
+}
+
+.close-btn:not(:disabled):not(.disabled):active,
+.close-btn:not(:disabled):not(.disabled).active,
+.close-btn:active {
+    background-color: var(--ges-red-light-opacity);
+    box-shadow: 0 0 4px 2px var(--ges-red-opacity);
+    color: var(--ges-red);
+}
+
+.edit-btn:hover {
+    background-color: var(--ges-lighteen-purple);
+    color: var(--ges-purple);
+    box-shadow: 0 0 6px 2px var(--ges-lighteen-purple);
+    cursor: pointer;
+}
+
+.edit-btn:not(:disabled):not(.disabled):focus,
+.edit-btn:not(:disabled):not(.disabled).focus,
+.edit-btn:focus {
+    box-shadow: 0 0 3px 1px var(--ges-lighteen-purple);
+    background-color: var(--ges-lighteen-purple);
+    color: var(--ges-purple);
+}
+
+.edit-btn:not(:disabled):not(.disabled):active,
+.edit-btn:not(:disabled):not(.disabled).active,
+.edit-btn:active {
+    background-color: var(--ges-lighteen-purple);
+    box-shadow: 0 0 4px 2px var(--ges-lighteen-purple);
+    color: var(--ges-purple);
+}
+
+.buttons-container {
+    display: flex;
+    justify-content: center;
+}
+
+.primary-btn--search {
+    align-self: center;
+    margin-left: 16px !important;
+}

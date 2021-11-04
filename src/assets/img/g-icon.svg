@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="405" height="426" viewBox="0 0 405 426">
+  <defs>
+    <clipPath id="clip-g-icon">
+      <rect width="405" height="426"/>
+    </clipPath>
+  </defs>
+  <g id="g-icon" clip-path="url(#clip-g-icon)">
+    <text id="G" transform="translate(203 405)" fill="#00249b" font-size="548" font-family="Poppins-Bold, Poppins" font-weight="700"><tspan x="-208.788" y="0">G</tspan></text>
+  </g>
+</svg>

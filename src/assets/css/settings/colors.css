@@ -1,0 +1,24 @@
+:root {
+    --gradient-primary: linear-gradient(150deg, #8E2DE2 0%, #4A00E0 74%);
+    --gradient-secondary: linear-gradient(150deg, #0CEBEB 0%, #23e7b6 50%, #29FFC6 100%);
+    --light-gradient: linear-gradient(90deg, #8DE7FF 0%, #B7FFF5 100%);
+    --red-gradient: linear-gradient(90deg, #d50000 0%, #600 100%);
+    --primary: #00249b;
+    --light-primary: #99b1ff;
+    --medium-primary: #3363ff;
+    --dark-primary: #000a29;
+    --primary-opacity: #62c0ff48;
+    --ges-purple: #480d8c;
+    --ges-lighteen-purple: #f2e8fd;
+    --ges-light-purple: #c9a2f6;
+    --ges-medium-purple: #7816e9;
+    --ges-dark-purple: #18042f;
+    --ges-gray: #666666;
+    --ges-lighteen-gray: #F5F5F5;
+    --ges-light-gray: #b3b3b3;
+    --ges-dark-gray: #4d4d4d;
+    --ges-red: #d50000;
+    --ges-dark-red: #600;
+    --ges-red-opacity: #d600008f;
+    --ges-red-light-opacity: #d600002d;
+}
