@@ -188,7 +188,7 @@ export default {
     },
     getRemoteCategories: function () {
       axios
-        .get("https://gestify-back-nodb.herokuapp.com/categories", {})
+        .get("https:///categories", {})
         .then((categories) => {
           this.categories = categories.data;
         })
@@ -200,7 +200,7 @@ export default {
       let userToken = localStorage.getItem("token_access");
       let userId = jwt_decode(userToken).user_id.toString();
       axios
-        .get(`https://gestify-back-nodb.herokuapp.com/user/${userId}/providers`, {
+        .get(`https:///user/${userId}/providers`, {
           headers: { Authorization: `Bearer ${userToken}` },
         })
         .then((result) => {
@@ -226,7 +226,7 @@ export default {
 
       axios
         .put(
-          `https://gestify-back-nodb.herokuapp.com/user/${userId}/products/${productId}`,
+          `https:///user/${userId}/products/${productId}`,
           this.productUpdated,
           {
             headers: { Authorization: `Bearer ${userToken}` },
