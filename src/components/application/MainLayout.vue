@@ -127,7 +127,7 @@ export default {
       let userId = jwt_decode(userToken).user_id.toString();
 
       axios
-        .get(`https://gestify-back-nodb.herokuapp.com/user/${userId}`, {
+        .get(`https:///user/${userId}`, {
           headers: { Authorization: `Bearer ${userToken}` },
         })
         .then((result) => {
@@ -141,7 +141,7 @@ export default {
     verifyToken: function () {
       return axios
         .post(
-          "https://gestify-back-nodb.herokuapp.com/refresh",
+          "https:///refresh",
           { refresh: localStorage.getItem("token_refresh") },
           { headers: {} }
         )
