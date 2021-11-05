@@ -107,10 +107,10 @@ WSGI_APPLICATION = 'authGestify.wsgi.application'
 DATABASES = {
     'default': {
          'ENGINE': 'django.db.backends.postgresql_psycopg2',
-         'NAME': 'dd0ouo0ob49g7r',
-         'USER': 'ikpklwmnkokjcv',
-         'PASSWORD': '411c72f4f303e6255e74ce2994c521958cf75918b64494c59bc5b4e9ecf5d482',
-         'HOST': 'ec2-34-233-105-94.compute-1.amazonaws.com',
+         'NAME': '',
+         'USER': '',
+         'PASSWORD': '',
+         'HOST': '',
          'PORT': '5432',
     }
 }
