@@ -101,7 +101,7 @@ export default {
       let userToken = localStorage.getItem("token_access");
       let userId = jwt_decode(userToken).user_id.toString();
       axios
-        .get(`https://gestify-back-nodb.herokuapp.com/user/${userId}/providers`, {
+        .get(`https:///user/${userId}/providers`, {
           headers: { Authorization: `Bearer ${userToken}` },
         })
         .then((result) => {
@@ -124,7 +124,7 @@ export default {
       this.setDataProduct();
       axios
         .put(
-          `https://gestify-back-nodb.herokuapp.com/user/${userId}/providers/${providerId}`,
+          `https:///user/${userId}/providers/${providerId}`,
           this.providerUpdated,
           {
             headers: { Authorization: `Bearer ${userToken}` },
